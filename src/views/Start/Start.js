@@ -17,7 +17,7 @@ function Start() {
   const [selectedOption, setSelectedOption] = useState('buy');
   const [searchValue, setSearchValue] = useState('');
   const [loading, setLoading] = useState(true);
-  const [jwtToken, setJwtToken] = useState('');
+  const [, setJwtToken] = useState('');
   const [subs, setSubs] = useState([]);
 
   const handleSearch = (event) => {
@@ -30,6 +30,7 @@ function Start() {
       try {
         const jwtToken = localStorage.getItem('token');
         setJwtToken(jwtToken);
+      
 
         if (!jwtToken) {
           return;
