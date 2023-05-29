@@ -1,0 +1,16 @@
+.content {
+    margin-top: 2em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    height: 80%;
+    justify-content: center;
+}
+
+.userTitle {
+    color: white;
+    margin-top: 1em;
+    font-size: 2em;
+}

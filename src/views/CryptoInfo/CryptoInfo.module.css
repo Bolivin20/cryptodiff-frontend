@@ -1,0 +1,46 @@
+.content {
+    margin-top: 2em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+}
+
+.cryptoTitle {
+    color: white;
+    margin: 0;
+    font-size: 3em;
+    padding: 0.25em 0;
+}
+
+.label {
+    border-top: 1px solid #433F3F;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5em 1em;
+    color: white;
+}
+
+.label>p {
+    margin: 0;
+    width: 20%;
+}
+
+.market {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.market > img {
+    height: 2.5em;
+}
+
+.chartTitle {
+    color: white;
+    margin-bottom: 1em;
+}

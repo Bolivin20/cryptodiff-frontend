@@ -1,0 +1,17 @@
+.menuBar {
+    padding: 2em 2em 0 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tabs {
+    display: flex;
+    color: #847777;
+    gap: 2em;
+}
+
+.logoLink {
+    text-decoration: none;
+    color: #847777;
+}

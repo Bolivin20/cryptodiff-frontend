@@ -1,0 +1,83 @@
+.app {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-image: url('../../images/chart.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+}
+
+.bgImage {
+    width: 65%;
+    margin: 3em;
+}
+
+.sidePanel {
+    background-color: black;
+    width: 35%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5em;
+    padding-left: 5em;
+    overflow: auto;
+}
+
+.description {
+    margin-top: 1em;
+    color: white;
+    font-size: 2em;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.buttonText {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    color: #5a5656;
+    gap: 0.5em;
+}
+
+.orBlock {
+    color: #5a5656;
+    width: calc(70% + 2em);
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+}
+
+.orBlock>hr {
+    border-color: #5a5656;
+    width: 35%;
+    border-width: 2px;
+}
+
+.googleButton {
+    border: 2px solid #3C3939;
+    border-radius: 10px;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+    width: calc(70% + 1em);
+    height: 2em;
+    padding: 0.5em;
+}
+
+.logoLink {
+    text-decoration: none;
+}
+
+.link {
+    color: #0E4BE7;
+    font-weight: bold;
+    text-decoration: none;
+}

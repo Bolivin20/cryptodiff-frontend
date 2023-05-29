@@ -1,0 +1,8 @@
+.app {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(180deg, #000000 0%, #131824 22.4%);
+    overflow: auto;
+}

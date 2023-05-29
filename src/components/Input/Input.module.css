@@ -1,0 +1,25 @@
+.inputStyle {
+    border: none;
+    background: #000000;
+    font-weight: bold;
+    color: white;
+    outline: none;
+    width: 70%;
+}
+
+.inputTitle {
+    margin-bottom: 0.5em;
+}
+
+.inputContainer {
+    background: #000000;
+    border: 2px solid #3C3939;
+    border-radius: 10px;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    width: 70%;
+    height: 2em;
+    padding: 0.5em;
+    padding-left: 1em;
+}

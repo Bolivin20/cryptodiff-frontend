@@ -1,0 +1,9 @@
+{
+    "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+    "name": "CryptoDiff",
+    "short_name": "CryptoDiff",
+    "start_url": ".",
+    "display": "browser",
+    "background_color": "#131824",
+    "description": "Check best offers from three biggest crypto stock markets."
+}
